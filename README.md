@@ -47,11 +47,12 @@ Validación previa con expresiones regulares (ej: división por cero) y control 
 src/
 │── components/
 │   ├── Button.jsx
+│   ├── ButtonGrid.jsx
+│   ├── Display.jsx
 │
-│── Calculator.jsx
 │── App.jsx
 │── main.jsx
-│── calculator.css
+│── index.css
 ```
 
 ---
@@ -61,13 +62,13 @@ src/
 1. Clonar el repositorio:
 
 ```bash
-git clone https://github.com/tu-usuario/calculadora-react.git
+git clone https://github.com/tu-usuario/interactive-calculator.git
 ```
 
 2. Entrar al proyecto:
 
 ```bash
-cd calculadora-react
+cd interactive-calculator
 ```
 
 3. Instalar dependencias:
