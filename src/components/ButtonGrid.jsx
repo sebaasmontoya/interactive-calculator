@@ -15,7 +15,7 @@ const getType = (btn) => {
 
 export default function ButtonGrid({ onButtonClick, onClear, onErase }) {
   return (
-    <div className="calc-buttons">
+    <>
       <div className="calc-erase">
         <button className="btn clear" onClick={onClear}>C</button>
         <button className="btn clear" onClick={onErase}>⌫</button>
@@ -30,6 +30,6 @@ export default function ButtonGrid({ onButtonClick, onClear, onErase }) {
           />
         ))}
       </div>
-    </div>
+    </>
   )
 }
