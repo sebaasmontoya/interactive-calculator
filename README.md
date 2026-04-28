@@ -62,13 +62,13 @@ src/
 1. Clonar el repositorio:
 
 ```bash
-git clone https://github.com/tu-usuario/interactive-calculator.git
+git clone https://github.com/tu-usuario/interactive-calculator-react.git
 ```
 
 2. Entrar al proyecto:
 
 ```bash
-cd interactive-calculator
+cd interactive-calculator-react
 ```
 
 3. Instalar dependencias:
